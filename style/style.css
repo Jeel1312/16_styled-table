@@ -1,0 +1,42 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    margin: 25px;
+}
+
+table {
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: 1px solid whitesmoke;
+    border-collapse: collapse;
+}
+
+tr {
+    height: 65px;
+}
+
+th {
+    color: white;
+    background-color: black;
+}
+
+tr:nth-child(even) {
+    background: #dc837f;
+}
+
+tr:nth-child(odd) {
+    background-color: #a3bb8b;
+}
